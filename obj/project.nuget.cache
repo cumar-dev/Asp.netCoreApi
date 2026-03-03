@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fDh59ZZFfII=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cumar\\Ecommerce\\Ecommerce.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cumar\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\cumar\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
