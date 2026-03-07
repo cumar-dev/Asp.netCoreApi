@@ -77,16 +77,16 @@ namespace ECOMMERCE.Controllers
 
         }
 
-       [HttpPut("{id}")]
+        [HttpPut("{id}")]
 
         public IActionResult Put(int id, [FromBody] Users newUser)
 
         {
             var user = users.FirstOrDefault(userupdating => userupdating.Id == id);
-           if(user == null)
+            if (user == null)
             {
                 return NotFound("user not found");
-            } 
+            }
 
             // UpdateRowSource fields
 
@@ -98,7 +98,7 @@ namespace ECOMMERCE.Controllers
 
             return Ok(user);
         }
-        
+
         [HttpDelete("{id}")]
 
         public IActionResult Delete(int id)
@@ -106,12 +106,12 @@ namespace ECOMMERCE.Controllers
         {
             var user = users.FirstOrDefault(userDeleting => userDeleting.Id == id);
 
-            if(user == null)
+            if (user == null)
             {
                 return NotFound("user deleting not found");
             }
-           
-        //    deleting
+
+            //    deleting
             users.Remove(user);
             // return NoContent();
             return Ok("user deleted successfully");

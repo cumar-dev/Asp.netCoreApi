@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using ECOMMERCE.Model;
 namespace ECOMMERCE.Model
 {
-    
 
 [ApiController]
 [Route("api/[controller]")]
