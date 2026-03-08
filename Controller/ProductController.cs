@@ -12,13 +12,22 @@ public class ProductController : ControllerBase
          new Product
          {
             Id = 1,
-            Name = "Apple Watch",
-            Description = "Apple watch is a watch that production by Apple company",
-            Price = 250,
+            Name = "Laptop",
+            Description = "Dell laptop 16GB RAM",
+            Price = 800,
             Stock = 10,
             CategoryId = 01010,
             CreatedAt = DateTime.Now
-            }
+        },
+           new Product
+           {
+               Id = 2,
+               Name = "Phone",
+               Description = "Samsung Galaxy smartphone",
+               Price = 500,
+               CategoryId = 074820,
+               CreatedAt = DateTime.Now
+           }
      };
     [HttpGet]
     public IActionResult Get()
